@@ -1,0 +1,21 @@
+.image-bg {
+    background-image: url('../../images/rotating-img-bg.png');
+    width: 465px;
+    height: 635px;
+}
+
+.rotating-img {
+    margin-top: 27px;
+    margin-left: 158px;
+    object-fit: cover;
+    transition: opacity 500ms ease-in;
+    /* opacity: 0; */
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0.5;
+}
